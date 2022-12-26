@@ -8,9 +8,10 @@ function App() {
     
       <h1>Hamza Qureshi Portfolio</h1>
       
-      <p className="read-the-docs">
+      <p className="">
         uploading Portfolio first time in vercel.
       </p>
+      <p>new code</p>
     </div>
   )
 }
