@@ -1,17 +1,17 @@
 import React from 'react'
 import './App.css'
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home/Home'
+import About from './pages/About/About'
 
 function App() {
 
   return (
     <div className="App">
-    
-      <h1>Hamza Qureshi Portfolio</h1>
-      
-      <p className="">
-        uploading Portfolio first time in vercel.
-      </p>
-      <p>new code</p>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+      </Routes>
     </div>
   )
 }

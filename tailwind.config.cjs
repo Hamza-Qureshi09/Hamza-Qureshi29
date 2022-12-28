@@ -6,7 +6,20 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'Merriweather': ['Merriweather', 'serif'],
+        'Montserrat': ['Montserrat', 'sans-serif'],
+        'Nunito': ['Nunito', 'sans-serif'],
+        'Pacifico': ['Pacifico','cursive'],
+        'Roboto': ['Roboto','sans-serif'],
+        'Tangerine': ['Tangerine','cursive'],
+        'Kaushan': ['Kaushan Script','cursive'],
+      },
+      screens:{
+        'lmd': '900px',
+      }
+    },
   },
   plugins: [],
 }
